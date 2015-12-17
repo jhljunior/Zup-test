@@ -1,0 +1,11 @@
+## /etc/default/jetty
+
+JAVA_HOME=/usr/lib/jvm/jre-1.7.0-openjdk.x86_64
+JAVA_HOME=/usr
+JAVA=$JAVA_HOME/bin/java 
+JAVA_OPTIONS="-server -Xms256m -Xmx1024m -XX:+DisableExplicitGC" 
+JETTY_HOME=/opt/jetty 
+JETTY_USER=jetty 
+JETTY_PORT=8080
+JETTY_HOST=127.0.0.1
+JETTY_LOGS=/opt/jetty/logs
